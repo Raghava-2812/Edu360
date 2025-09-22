@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/Auth/Login';
 import RegisterStudent from './pages/Auth/RegisterStudent';
 import RegisterTeacher from './pages/Auth/RegisterTeacher';
@@ -16,7 +16,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/login" />} />
+
+        <Route path="/" element={<Home />} />
+
         <Route path="/login" element={<Login />} />
         <Route path="/register/student" element={<RegisterStudent />} />
         <Route path="/register/teacher" element={<RegisterTeacher />} />
@@ -35,7 +37,7 @@ function App() {
         <Route path="/admin/reports" element={<Reports />} />
 
         {/* 404 fallback */}
-        <Route path="*" element={<h2 style={{textAlign:'center', marginTop:'50px'}}>404 - Page Not Found</h2>} />
+        <Route path="*" element={<h2 style={{ textAlign: 'center', marginTop: '50px' }}>404 - Page Not Found</h2>} />
       </Routes>
     </Router>
   );
