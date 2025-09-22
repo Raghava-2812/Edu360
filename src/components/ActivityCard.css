@@ -1,0 +1,62 @@
+.activity-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.activity-card h3 {
+    color: #0056d2;
+    margin-bottom: 0.5rem;
+}
+
+.activity-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0056d2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.activity-card a:hover {
+    text-decoration: underline;
+}
+
+.activity-card .pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.activity-card .approved {
+    color: green;
+    font-weight: bold;
+}
+
+.activity-card .rejected {
+    color: red;
+    font-weight: bold;
+}
+
+.btn-group {
+    margin-top: 1rem;
+}
+
+.btn-group button {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-group .reject {
+    background: red;
+    color: #fff;
+}
+
+.btn-group button:not(.reject) {
+    background: green;
+    color: #fff;
+}

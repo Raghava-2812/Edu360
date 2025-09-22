@@ -1,0 +1,42 @@
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background: #0056d2;
+    color: #fff;
+    padding: 2rem 1rem;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav a, .sidebar nav button {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar nav button {
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar nav button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,78 @@
+.student-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: #f4f6fa;
+    min-height: 100vh;
+}
+
+.activity-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-form h2 {
+    color: #0056d2;
+    margin-bottom: 1rem;
+}
+
+.activity-form input, .activity-form button {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.activity-form button {
+    background: #0056d2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.activity-form button:hover {
+    background: #003c99;
+}
+.activity-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.activity-card h3 {
+    color: #0056d2;
+}
+
+.activity-card a {
+    color: #0056d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.activity-card a:hover {
+    text-decoration: underline;
+}
+.dashboard-container {
+    display: flex;
+}
+
+.dashboard-content {
+    margin-left: 220px;
+    padding: 2rem;
+    background: #f4f6fa;
+    min-height: 100vh;
+}
+
+.dashboard-content h1 {
+    color: #0056d2;
+    margin-bottom: 1rem;
+}
